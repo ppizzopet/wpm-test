@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <style>
+        body{
+            background-color: #222f3e;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1{
+            color: #576574;
+            font-size: 3vw;
+            display: flex;
+            justify-content: center;
+            margin-top: 3.5%;
+        }
+        #inp{
+            width: 50%;
+            background-color: #222f3e;
+            font-family: 'Courier New', Courier, monospace;
+            border: 0;
+            font-size: 3vw;
+            color: #576574;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        #time{
+            margin-top: 20%;
+        }
+        #placeholder {
+            position: absolute;
+            color: #576574;
+            font-size:3vw;
+            pointer-events: none;
+            left: 53.5%;
+            width: 50%;
+            max-width: 50%;
+            transform: translateX(-53.5%);
+            max-height: 0%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Typing Speed Test</h1>
+    <divc class="typingtest">
+        <input type="text" id="inp" />
+        <span id="placeholder"></span>
+        
+    </div>
+    <h1 id="time">60s</h1>
+    <script src="script.js"></script>
+</body>
+</html>
